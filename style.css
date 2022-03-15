@@ -1,12 +1,20 @@
-body{
+body {
   margin: 0;
 }
 
-#nav-bar{
+#nav-bar {
   position: fixed;
   display: flex;
+  width: 100%;
+  align-items: center;
+  border: 1px solid black;
+  justify-content: space-between;
+  padding: 0 8vw;
+  box-sizing: border-box;
 }
 
-@media (orientation: portrait){
-
+.company-logo {
+  height: 2vw;
 }
+
+@media (orientation: portrait) {}
